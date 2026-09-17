@@ -1,9 +1,49 @@
 import React from 'react';
 
+// Data fetching option -02
+// const postPromise = async () => {
+//     const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+//     return res.json();
+// }
+
+// Data fetching option- 03
+// const getPosts = async () => {
+//     const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+//     return res.json();
+// }
+
+//Data Fetching option- 04
+// const getPosts = async () => {
+//     try {
+//         const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+//         return res.json();
+//     } catch (error) {
+//         throw new error("Failed to fetch posts")
+//     }
+
+// }
+
+// Data fetching option- 05
+const getPosts = async () => {
+    const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+
+    if (!res.ok) {
+        throw new error("Failed to fetch posts");
+    }
+
+    return res.json();
+}
+
 const PostPage = async () => {
 
-    const res = await fetch("https://jsonplaceholder.typicode.com/posts");
-    const posts = await res.json();
+
+    // Data fetching option- 01
+    // const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+    // const posts = await res.json();
+
+    // const posts = await postPromise();
+
+    const posts = await getPosts();
 
     return (
         <div>
