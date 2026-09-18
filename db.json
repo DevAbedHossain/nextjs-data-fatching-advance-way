@@ -1,0 +1,226 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 16 Pro",
+      "category": "Phone",
+      "brand": "Apple",
+      "price": 999,
+      "rating": 4.8,
+      "stock": 15,
+      "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd",
+      "description": "The iPhone 16 Pro features a powerful processor, advanced camera system, premium titanium design, and a bright Super Retina XDR display."
+    },
+    {
+      "id": 2,
+      "name": "Galaxy S25 Ultra",
+      "category": "Phone",
+      "brand": "Samsung",
+      "price": 1199,
+      "rating": 4.9,
+      "stock": 12,
+      "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c",
+      "description": "The Galaxy S25 Ultra offers a large AMOLED display, powerful performance, advanced cameras, and long-lasting battery life."
+    },
+    {
+      "id": 3,
+      "name": "MacBook Pro 16",
+      "category": "Laptop",
+      "brand": "Apple",
+      "price": 2499,
+      "rating": 4.9,
+      "stock": 8,
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+      "description": "The MacBook Pro 16 is a high-performance laptop designed for developers, designers, video editors, and professional workloads."
+    },
+    {
+      "id": 4,
+      "name": "Dell XPS 15",
+      "category": "Laptop",
+      "brand": "Dell",
+      "price": 1799,
+      "rating": 4.7,
+      "stock": 10,
+      "image": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6",
+      "description": "The Dell XPS 15 combines a premium design, powerful processor, high-quality display, and excellent performance for work and entertainment."
+    },
+    {
+      "id": 5,
+      "name": "Sony WH-1000XM5",
+      "category": "Headphone",
+      "brand": "Sony",
+      "price": 399,
+      "rating": 4.8,
+      "stock": 20,
+      "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb",
+      "description": "The Sony WH-1000XM5 delivers immersive audio with advanced noise cancellation, comfortable ear cups, and long battery life."
+    },
+    {
+      "id": 6,
+      "name": "Apple Watch Series 10",
+      "category": "Smartwatch",
+      "brand": "Apple",
+      "price": 429,
+      "rating": 4.7,
+      "stock": 14,
+      "image": "https://images.unsplash.com/photo-1551816230-ef5deaed4a26",
+      "description": "The Apple Watch Series 10 combines health and fitness features with smart notifications, activity tracking, and a stylish lightweight design."
+    },
+    {
+      "id": 7,
+      "name": "MX Master 3S",
+      "category": "Mouse",
+      "brand": "Logitech",
+      "price": 99,
+      "rating": 4.8,
+      "stock": 30,
+      "image": "https://images.unsplash.com/photo-1527814050087-3793815479db",
+      "description": "The Logitech MX Master 3S is a comfortable wireless mouse designed for productivity, featuring precise tracking and customizable buttons."
+    },
+    {
+      "id": 8,
+      "name": "Keychron K2",
+      "category": "Keyboard",
+      "brand": "Keychron",
+      "price": 89,
+      "rating": 4.6,
+      "stock": 18,
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3",
+      "description": "The Keychron K2 is a compact mechanical keyboard with wireless connectivity and a comfortable layout for everyday typing."
+    },
+    {
+      "id": 9,
+      "name": "iPad Pro 13",
+      "category": "Tablet",
+      "brand": "Apple",
+      "price": 1099,
+      "rating": 4.8,
+      "stock": 9,
+      "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0",
+      "description": "The iPad Pro 13 provides a large high-resolution display, powerful performance, and excellent portability for creative and professional work."
+    },
+    {
+      "id": 10,
+      "name": "Sony Alpha A7 IV",
+      "category": "Camera",
+      "brand": "Sony",
+      "price": 2499,
+      "rating": 4.9,
+      "stock": 6,
+      "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32",
+      "description": "The Sony Alpha A7 IV is a full-frame mirrorless camera designed for photographers and content creators who need high-quality photos and video."
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "name": "Atomic Habits",
+      "category": "Self Development",
+      "brand": "James Clear",
+      "price": 18.99,
+      "rating": 4.8,
+      "stock": 25,
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f",
+      "description": "A practical guide to building good habits, breaking bad ones, and making small changes that lead to remarkable results."
+    },
+    {
+      "id": 2,
+      "name": "The Psychology of Money",
+      "category": "Finance",
+      "brand": "Morgan Housel",
+      "price": 16.99,
+      "rating": 4.7,
+      "stock": 18,
+      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
+      "description": "An engaging book about how people think about money, investing, saving, and making better financial decisions."
+    },
+    {
+      "id": 3,
+      "name": "Clean Code",
+      "category": "Programming",
+      "brand": "Robert C. Martin",
+      "price": 42.99,
+      "rating": 4.8,
+      "stock": 12,
+      "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765",
+      "description": "A classic programming book that teaches developers how to write readable, maintainable, and professional-quality code."
+    },
+    {
+      "id": 4,
+      "name": "The Pragmatic Programmer",
+      "category": "Programming",
+      "brand": "David Thomas & Andrew Hunt",
+      "price": 39.99,
+      "rating": 4.9,
+      "stock": 10,
+      "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353",
+      "description": "A practical guide to becoming a better software developer through effective techniques, principles, and problem-solving strategies."
+    },
+    {
+      "id": 5,
+      "name": "Rich Dad Poor Dad",
+      "category": "Finance",
+      "brand": "Robert Kiyosaki",
+      "price": 14.99,
+      "rating": 4.6,
+      "stock": 30,
+      "image": "https://images.unsplash.com/photo-1589998059171-988d887df646",
+      "description": "A personal finance book that explores different approaches to money, investing, financial education, and building wealth."
+    },
+    {
+      "id": 6,
+      "name": "Deep Work",
+      "category": "Productivity",
+      "brand": "Cal Newport",
+      "price": 17.99,
+      "rating": 4.7,
+      "stock": 22,
+      "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d",
+      "description": "Learn how focused, distraction-free work can improve productivity and help you produce valuable results in less time."
+    },
+    {
+      "id": 7,
+      "name": "Think and Grow Rich",
+      "category": "Motivation",
+      "brand": "Napoleon Hill",
+      "price": 12.99,
+      "rating": 4.5,
+      "stock": 28,
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+      "description": "A classic personal development book focused on mindset, goals, persistence, and principles for achieving success."
+    },
+    {
+      "id": 8,
+      "name": "The Alchemist",
+      "category": "Fiction",
+      "brand": "Paulo Coelho",
+      "price": 15.99,
+      "rating": 4.8,
+      "stock": 20,
+      "image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e",
+      "description": "A philosophical novel about a young shepherd who follows his dreams and discovers important lessons about life and purpose."
+    },
+    {
+      "id": 9,
+      "name": "Start with Why",
+      "category": "Leadership",
+      "brand": "Simon Sinek",
+      "price": 19.99,
+      "rating": 4.6,
+      "stock": 16,
+      "image": "https://images.unsplash.com/photo-1519682337058-a94d519337bc",
+      "description": "A leadership book that explains how understanding your purpose and communicating your why can inspire people and organizations."
+    },
+    {
+      "id": 10,
+      "name": "Ikigai",
+      "category": "Lifestyle",
+      "brand": "Hector Garcia & Francesc Miralles",
+      "price": 13.99,
+      "rating": 4.5,
+      "stock": 24,
+      "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da",
+      "description": "Explore the Japanese concept of ikigai and discover ideas about purpose, happiness, longevity, and finding meaning in everyday life."
+    }
+  ]
+}

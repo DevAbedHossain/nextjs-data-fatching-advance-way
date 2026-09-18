@@ -1,4 +1,5 @@
 import React from 'react';
+import PostsCard from '../components/PostsCard';
 
 // Data fetching option -02
 // const postPromise = async () => {
@@ -49,6 +50,11 @@ const PostPage = async () => {
         <div>
             <h2>Post Page</h2>
             <h4>Total Post: {posts.length}</h4>
+            <div className="grid grid-cols-4 gap-4">
+                {
+                    posts.map(post => <PostsCard key={post.id} post={post}></PostsCard>)
+                }
+            </div>
         </div>
     );
 };
