@@ -16,6 +16,8 @@ const BookDetailsPage = async ({ params }) => {
 
     const { id, name, image, category, description, price, rating } = book;
 
+
+
     return (
         <div>
             <h2>Book Details page</h2>
