@@ -1,10 +1,15 @@
+"use client"
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import useUser from "../hooks/useUser"
 
 const ProductsCard = ({ product }) => {
 
     const { id, name, image, description } = product;
+
+    const user = useUser();
+    console.log("Product cart user context", user)
 
     return (
         <div>
